@@ -1,1 +1,0 @@
-This is a project to teach/remember things in HTML and CSS to use in Javascript and React

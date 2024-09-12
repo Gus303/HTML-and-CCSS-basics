@@ -1,8 +1,0 @@
-@charset "UTF-8";
-/* @ means rule and this rule is used to avoid problems with letter */
-*{
-    height: 100%;
-}
-body {
-    background-image: radial-gradient( circle, #38D0F2,#0A4273);
-}

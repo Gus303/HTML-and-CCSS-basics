@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Test 5</title>
+</head>
+<body>
+    <h1>Dinamic images</h1>
+    <p>Change the size of the scream</p>
+    <!-- tag picture can used to make settings in tags like img, you will see -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="/images/foto-s.png" type="image/png">
+        <!-- we use more 50 px because of the scroll of the site -->
+        <source media="(max-width: 1050px)" srcset="/images/foto-m.png" type="image/png">
+        <img src="/images/foto-b.png" alt="image">
+        <!-- and you need to follow this order (from de smaller to bigger) -->
+    </picture>
+
+    <h1>Audios</h1>
+    <p>you can put audio in your site using the tag &lt;audio&gt; and "src"</p>
+    <audio preload="metadata" src="/audios/audio.mp3" controls></audio>
+    <!-- using "controls" you can see the audio -->
+    <!-- using "autoplay" you can open your site and the music will play automatic -->
+    <!-- using "metadata" your file will load completely when you click in the audio -->
+    <p>or</p>
+    <p>you can use &lt;audio&gt; and inside you put the tag &lt;source&gt;</p>
+    <audio preload="metadata" controls>
+        <source src="/audios/audio2.mp3" type="audio/mpeg">
+        <p>your site don't have compatibility with this audio</p>
+    </audio>
+</body>
+</html>
