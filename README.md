@@ -1,6 +1,6 @@
 # HTML & CSS Basic Project
 
-This is a simple HTML with CSS project to demonstrate basic functionality.
+This is a simple HTML with CSS project to demonstrate basic functionalities.
 
 ## Inspiration
 
